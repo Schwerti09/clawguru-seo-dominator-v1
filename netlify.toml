@@ -1,0 +1,6 @@
+[build]
+  command = "npm install --legacy-peer-deps --no-audit --no-fund && npm run build"
+  publish = ".next"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
